@@ -1,0 +1,71 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    border: solid .10em black;
+    background-color: navy;
+    color: white;
+    margin: auto;
+    padding: 0.5em;
+    font-size: 300%;
+    text-align: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+/* FIXME insert properties for empty blue box */
+.box-empty{
+    background-color: aqua;
+}
+
+.box-one{
+    margin-left: 18%;
+    margin-right: 20%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+
+.box-two{
+    margin-top: 10%;
+    margin-bottom: 20%;
+    margin-right: 5%;
+}
+
+.img{
+    height: 150px;
+    width: 200px;
+}
+
+.p1{
+    margin: 0%;
+}
+
+.left-title{
+    font-size: 25px;
+}
+
+.left-text{
+    font-size: 20px;
+}
+
+.right-text{
+    font-size: x-small;
+}
+
+.d-flex{
+    display: flex;
+}
+
+footer{
+    border: solid .20em black;
+    background-color: navy;
+    margin: auto;
+    padding: 4.5em;
+}

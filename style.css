@@ -53,8 +53,6 @@ h3{
     margin: 0%;
 }
 
-/* NOTE add space between title and blue border */
-/* NOTE extend left and right sides of border */
 .left-title{
     font-size: 28px;
     border-top: solid 0.8em var(--color-light);

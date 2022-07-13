@@ -1,15 +1,26 @@
-body{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+:root{
+    --color-dark: rgb(63, 63, 174);
+    --color-light: rgb(172, 187, 240);
 }
 
-h1{
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.title-box{
     border: solid .10em black;
-    background-color: navy;
-    color: white;
+    background-color: var(--color-dark);
+    color: var(--color-light);
     margin: auto;
     padding: 0.5em;
+    padding-bottom: 0.2em;
     font-size: 300%;
     text-align: center;
+}
+
+h3{
+    margin-top: 5%;
+    margin-bottom: 2%;
 }
 
 .justify-center{
@@ -20,14 +31,9 @@ h1{
     justify-content: space-between;
 }
 
-/* FIXME insert properties for empty blue box */
-.box-empty{
-    background-color: aqua;
-}
-
 .box-one{
     margin-left: 18%;
-    margin-right: 20%;
+    margin-right: 10%;
     margin-top: 3%;
     margin-bottom: 2%;
 }
@@ -47,12 +53,21 @@ h1{
     margin: 0%;
 }
 
+/* NOTE add space between title and blue border */
+/* NOTE extend left and right sides of border */
 .left-title{
-    font-size: 25px;
+    font-size: 28px;
+    border-top: solid 0.8em var(--color-light);
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    margin-bottom: 1.3em;
 }
 
 .left-text{
-    font-size: 20px;
+    font-size: 18px;
+    padding-left: 2em;
+    padding-right: 1em;
 }
 
 .right-text{
@@ -65,7 +80,8 @@ h1{
 
 footer{
     border: solid .20em black;
-    background-color: navy;
-    margin: auto;
+    background-color: var(--color-dark);
     padding: 4.5em;
+    margin-left: 0%;
+    margin-right: 0%;
 }
